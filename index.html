@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-  <meta name="theme-color" content="#1a1d29" />
-  <title>Repaso Hockey · DC II</title>
+  <meta name="theme-color" content="#0a1a22" />
+  <title>Repaso Hockey · Deportes Colectivos II</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -14,12 +14,40 @@
 </head>
 <body>
   <div id="app">
+    <!-- COVER / PORTADA -->
+    <section id="view-cover" class="view active">
+      <div class="cover">
+        <div class="cover-top">
+          <span class="brand-mark">●●</span>
+          <span class="brand-name">TecnoCampus</span>
+          <span class="brand-sub">· UPF</span>
+        </div>
+
+        <div class="cover-center">
+          <div class="cover-emblem">🏑</div>
+          <h1 class="cover-title">Repaso<br />Hockey</h1>
+          <p class="cover-course">Deportes Colectivos II — Hockey hierba</p>
+          <div class="cover-chips">
+            <span class="chip">8 temas</span>
+            <span class="chip">370 preguntas</span>
+            <span class="chip">Modo examen</span>
+          </div>
+        </div>
+
+        <div class="cover-bottom">
+          <button class="big-btn solid full" data-action="enter">Comenzar <span class="chev">›</span></button>
+          <p class="cover-foot">Universitat Pompeu Fabra<br /><span>TecnoCampus Mataró-Maresme</span></p>
+        </div>
+      </div>
+    </section>
+
     <!-- HOME -->
-    <section id="view-home" class="view active">
+    <section id="view-home" class="view">
       <header class="app-header">
         <div>
-          <p class="kicker">Deportes Colectivos II</p>
+          <p class="kicker">TecnoCampus · UPF</p>
           <h1>Repaso Hockey 🏑</h1>
+          <p class="subkicker">Deportes Colectivos II</p>
         </div>
       </header>
       <div class="content">
@@ -42,7 +70,7 @@
           <span class="big-btn-ico">🎯</span>
           <span class="big-btn-txt">
             <strong>Examen aleatorio</strong>
-            <small>20 preguntas de todos los temas</small>
+            <small>20 preguntas · nota tipo examen</small>
           </span>
           <span class="chev">›</span>
         </button>

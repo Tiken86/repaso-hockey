@@ -279,7 +279,8 @@
     var t = e.target.closest("[data-action]");
     if (t) {
       var a = t.dataset.action;
-      if (a === "exam") startExam();
+      if (a === "enter") { renderHome(); show("view-home"); }
+      else if (a === "exam") startExam();
       else if (a === "home") { renderHome(); show("view-home"); }
       else if (a === "start") startTemaQuiz();
       else if (a === "quitQuiz") quitQuiz();
