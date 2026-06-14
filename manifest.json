@@ -1,0 +1,14 @@
+{
+  "name": "Repaso Hockey · DC II",
+  "short_name": "Repaso Hockey",
+  "description": "Repaso por test de Deportes Colectivos II — Hockey hierba",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1117",
+  "theme_color": "#0f1117",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
