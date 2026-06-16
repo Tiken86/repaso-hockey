@@ -1,0 +1,9 @@
+# No subir exámenes, banco de preguntas ni scripts de generación
+*.docx
+*.doc
+*.pdf
+*.pptx
+Examen_*
+Banco_*
+generate_*.py
+~$*
